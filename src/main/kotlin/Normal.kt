@@ -1,5 +1,5 @@
 open class Normal {
-    open fun normal(){
+    open fun normal() {
         println("Hasil BMI: Normal")
     }
 }

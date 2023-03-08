@@ -1,5 +1,5 @@
 class Gemuk {
-    fun kondisiGemuk(){
+    fun kondisiGemuk() {
         println("Hasil BMI: Gemuk")
     }
 }
