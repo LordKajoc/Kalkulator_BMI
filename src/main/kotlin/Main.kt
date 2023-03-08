@@ -10,6 +10,7 @@ fun main() {
     val kondisiAngka = KurusKurangDari17()
     val kurus = Kurus2()
     val normall = Normal()
+    val gemuk = Gemuk()
 
     if ( BMI < 17.0) {
       kondisiAngka.kondisiKurus()
@@ -18,9 +19,9 @@ fun main() {
     } else if ( BMI in 18.5..25.0) {
         normall.normal()
     } else if ( BMI in 25.0..27.0) {
-        println("Hasil BMI: Gemuk")
+        gemuk.kondisiGemuk()
     } else if ( BMI > 27) {
-        println("Hasil BMI: Gemuk")
+        gemuk.kondisiGemuk()
     }
 }
 
