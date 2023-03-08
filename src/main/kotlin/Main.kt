@@ -9,12 +9,12 @@ fun main() {
   var BMI: Double = (beratbadan / (tinggibadan * tinggibadan))
 
   val kondisiAngka = KurusKurangDari17()
-
+    val kurus = Kurus2()
 
     if ( BMI < 17.0) {
       kondisiAngka.kondisiKurus()
     } else if ( BMI in 17.0..18.5) {
-        println("Hasil BMI: Kurus")
+        kurus.kondisiKurus()
     } else if ( BMI in 18.5..25.0) {
         println("Hasil BMI: Normal")
     } else if ( BMI in 25.0..27.0) {
